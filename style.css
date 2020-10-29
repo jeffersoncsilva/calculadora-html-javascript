@@ -1,32 +1,59 @@
-#background{
-    background-color: aqua;
-    width: 450px;
-    height: 600px;
-    margin: auto;
-}
-
-#resultado{
-    background-color: chartreuse;
+html {
+    font-family: sans-serif;
     text-align: center;
-    font-size: 3.5em;
 }
 
-table{
-    margin: auto;
+body {
+    width: 50%;
+    max-width: 340px;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
-input{
-    width: 100%;
-    height: 100%;
-    font-size: 3em;
-    border-radius: 15px;
+.ultimosResultados {
+    color: white;
+    padding: 3px;
 }
 
-input:hover{
+.corpo {
+    border: #000 solid 1px;
+    padding: 0px 20px 20px 20px;
+    border-radius: 5px;
+    background-color: powderblue;
+}
+button{
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.botoes button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    
+}
+
+.btResut {
+    width: 285px;
+    height: 60px;
+    margin: 5px;
     background-color:red;
+    color: white;
 }
 
-td{
-    width: 100px;
-    height: 90px;
+.display{
+    width: 240px;
+    height: 50px;
+    border: #000 solid 1px;
+    margin: 8px;
+    text-align: right;
+    font-family: "digital-7";
+    font-size: 3rem;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.azul{
+   /* background-color: DodgerBlue;*/
 }

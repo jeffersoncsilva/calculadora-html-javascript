@@ -1,46 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    
     <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="background">
+    <div class="corpo">
+        <h1>CALCULADORA</h1>
+        <div class="display"></div>
+        <div class="botoes">
+            <button class="bt1"> 1 </button>
+            <button class="bt2"> 2 </button>
+            <button class="bt3"> 3 </button>
+            <button class="btAdd"> + </button>
+            <button class="bt4"> 4 </button>
+            <button class="bt5"> 5 </button>
+            <button class="bt6"> 6 </button>
+            <button class="btSub"> - </button>
+            <button class="bt7"> 7 </button>
+            <button class="bt8"> 8 </button>
+            <button class="bt9"> 9 </button>
+            <button class="btMul"> * </button>
+            <button class="btReset"> C </button>
+            <button class="bt0"> 0 </button>
+            <button class="btPercentage"> % </button>
+            <button class="btDiv"> / </button>
             
-        <h1 id="resultado">_</h1>
-        <table>
-            <tr>
-                <td><input type="button" value="1" onclick="isNumber(1)"/></td>
-                <td><input type="button" value="2" onclick="isNumber(2)" /></td>
-                <td><input type="button" value="3" onclick="isNumber(3)" /></td>
-                <td><input type="button" value="+" onclick="isOperation('sum')" /></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="4" onclick="isNumber(4)" /></td>
-                <td><input type="button" value="5" onclick="isNumber(5)" /></td>
-                <td><input type="button" value="6" onclick="isNumber(6)" /></td>
-                <td><input type="button" value="-" onclick="isOperation('sub')" /></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="7" onclick="isNumber(7)" /></td>
-                <td><input type="button" value="8" onclick="isNumber(8)" /></td>
-                <td><input type="button" value="9" onclick="isNumber(9)" /></td>
-                <td><input type="button" value="*" onclick="isOperation('mult')" /></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="C" onclick="clearAll('c')"/></td>
-                <td><input type="button" value="0" onclick="isNumber(0)" /></td>
-                <td><input type="button" value="%" onclick="isOperation('rest')"/></td>
-                <td><input type="button" value="/" onclick="isOperation('div')" /></td>
-            </tr>
-            <tr>
-                <td colspan="4"><input type="button" value="=" onclick="calculateOp('equals')"/></td>
-            </tr>
-        </table>
+        </div>
+        <button  class="btResut"> = </button>
+
     </div>
 </body>
-<script src="scipt.js"></script>
+<script src="script.js"></script>
+
 </html>
